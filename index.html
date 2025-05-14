@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FleetVisuals - Designs That Speak Louder Than Words</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">FleetVisuals</a>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 data-aos="fade-up">Designs That Speak<br>Louder Than Words</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Creating visuals that hit different</p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">About Us</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>FleetVisuals is a youth-led graphic design studio based in Bhaktapur, Nepal. Founded by ambitious creators with a passion for bold design, we transform ideas into powerful visuals that make an impact.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <h3>Logo Design</h3>
+                    <p>Memorable, distinctive logos that capture your brand essence.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Branding</h3>
+                    <p>Complete brand identity systems that tell your story.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Social Media</h3>
+                    <p>Engaging graphics that boost your online presence.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Print Design</h3>
+                    <p>Eye-catching posters, flyers, and marketing materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <img src="images/brand-identity.jpg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Logo and brand design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/printdesign.png" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Print Design</h3>
+                        <p>Poster collection</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/socialmedia.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Social Media</h3>
+                        <p>Instagram campaign</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    <p>Email: fleetvisuals@gmail.com</p>
+                    <p>Phone: +977-9762363155</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/fleet_visuals/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/fleetvisuals@gmail.com" method="POST" class="contact-form" data-aos="fade-left">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="logo">Logo Design</option>
+                        <option value="branding">Branding</option>
+                        <option value="social">Social Media</option>
+                        <option value="print">Print Design</option>
+                    </select>
+                    <textarea name="message" placeholder="Tell us about your project" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">FleetVisuals</div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/fleet_visuals/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FleetVisuals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Launch Popup Modal -->
+<div id="launchModal" class="modal">
+    <div class="modal-content">
+      <img src="images/download (1).png" alt="FleetVisuals Logo" class="modal-logo" />
+      <h2>We’re Sorry, Our Work Is Coming Soon!</h2>
+      <p>At the moment, we don’t have our design collection live on the website. We’re working hard to bring you exciting new designs soon. Stay tuned for updates!</p>
+      <button id="closeModal" class="btn btn-primary">Got It!</button>
+    </div>
+  </div>
+
+ 
+    <!-- Floating Icons in the Background -->
+    <div class="floating-icons">
+        <svg class="floating-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" width="50" height="50">
+            <path d="M5 12l5 5L20 7"></path>
+        </svg>
+        <svg class="floating-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" width="50" height="50">
+            <path d="M9 9l10 10M9 19L19 9"></path>
+        </svg>
+        <svg class="floating-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" width="50" height="50">
+            <path d="M3 12h18"></path>
+            <path d="M12 3v18"></path>
+        </svg>
+    </div>
+
+    <!-- Rest of the content goes here -->
+
+
+</body>
+</html>
